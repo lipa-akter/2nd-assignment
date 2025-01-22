@@ -80,6 +80,7 @@ main{
 .main-section{
     background-image: linear-gradient(white, rgb(245, 238, 148));
     padding: 0;
+    width: 100%;
 }
 
 /* style hero section */
