@@ -73,7 +73,7 @@ a{
 
 main{
    
-    max-width:1400px;
+    /* max-width:1200px; */
     margin: 0 auto;
     padding: 30px;
 }
@@ -323,6 +323,26 @@ main{
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* responsiv our story section */
+   
+     .card{
+        display: none;
+     } 
+     .story-collage{
+        grid-template-columns: repeat(2,1fr); 
+        gap: 10px;
+     } 
+     .collage-img {
+        width: 100%; 
+    }
+    .story-cart {
+        width: 100%;
+    }
+    div[style*="padding: 70px; text-align: center;"] {
+        padding: 30px 10px;
+    }
+    
+
 } 
 
 
@@ -350,4 +370,16 @@ main{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .story-collage{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .collage-img {
+        width: 100%; 
+    }
+    .story-cart {
+        width: 100%;
+    }
+
 } 
