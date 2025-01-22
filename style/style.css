@@ -1,10 +1,12 @@
 
-.quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+
+
+.quicksand-regular{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style : normal;
+}
   
 
 
@@ -135,7 +137,6 @@ main{
 
 .curriculam-title{
     text-align: center;
-    margin-top: 100px;
     font-size: 32px;
     font-weight: 700px;
 }
@@ -190,7 +191,7 @@ main{
 
  /* left and right arrow style */
  .arrow-btn{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     font-size: 20px;
    
