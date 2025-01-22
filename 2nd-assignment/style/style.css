@@ -1,0 +1,191 @@
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+
+/* style header section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-around;
+}
+div ul {
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-manu-1{
+    color:#FEA301;
+    01ACFD
+}
+.nav-manu-2{
+    color:#01ACFD ;
+    
+}
+.nav-manu-3{
+    color:#05D4DF ;
+    
+}
+.nav-manu-4{
+    color:#5D58EF ;
+    
+}
+.nav-btn{
+    background-color: #FEA301;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.nav-btn:hover{
+    background-color: #01ACFD;
+    color: white;
+    transition-duration: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+
+
+/* style hero section */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner-img{
+   width: 100%;
+   
+}
+.banner-text-1{
+    color: #FEA301;
+}
+.banner-text-2{
+    color: #01ACFD;
+}
+.banner-title{
+    font-size: 46px;
+    font-weight: 700px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 600px;
+    color: gray;
+}
+.banner-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+.banner-btn:hover{
+    background-color: #FEA301 ;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+
+
+
+/*  responsive  largest device style */
+@media  (max-width: 1200px) {
+
+    /* navebar style */
+    .nav-logo{
+      
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+  
+   /* responsive small device */
+}
+  @media (max-width:768px){
+    .checkbtn{
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    /* responsive hero section style */
+   
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .banner-img {
+        width: 80%; 
+        margin: 0 auto; 
+    }
+    .banner-text{
+        text-align: center;
+        
+    }
+    .banner-title{
+        font-size: 26px;
+
+    }
+    .banner-description{
+        font-size: 14px; 
+    }
+    .banner-btn {
+        font-size: 14px; 
+        padding: 8px 12px; 
+    }
+
+} 
+
+
+/*responsive Extra small devices  */
+
+@media screen and (max-width: 480px) {
+
+    /* hero section style */
+    .banner-title {
+        font-size: 22px; 
+    }
+    .banner-description {
+        font-size: 12px; 
+    }
+    .banner-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .banner-img {
+        width: 90%; 
+    }
+} 
