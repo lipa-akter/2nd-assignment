@@ -231,6 +231,7 @@ a{
     }
     
     /* responsive Standard Curriculum sectioon */
+
     .card-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -256,5 +257,11 @@ a{
     }
     .banner-img {
         width: 90%; 
+    }
+     /* responsive Standard Curriculum sectioon */
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 } 
