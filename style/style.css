@@ -3,10 +3,10 @@
 
 .quicksand-regular{
   font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style : normal;
+  
 }
+
+
   
 
 
@@ -219,6 +219,7 @@ main{
 .card{
     background-color:rgb(255, 255, 255);
     border-radius: 10px;
+    width: 400px;
     position: relative;
    
 }
